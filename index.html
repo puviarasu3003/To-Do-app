@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--score top-->
+    <div class="full">
+      <div>
+        <div class="score">
+          <div class="must">
+            <h2>Track your daily tasks</h2>
+            <h2>and set remainders</h2>
+
+            <div class="bar"></div>
+          </div>
+          <div class="para" id="counter"></div>
+        </div>
+      </div>
+      <!--------------------------------------------------------->
+      <!--input-->
+      <div>
+        <div class="plus-content">
+          <input class="inputs" id="space" placeholder="Add your task" /><button
+            id="buttonadd"
+            onclick="newelements()"
+          >
+            Add
+          </button>
+        </div>
+
+        <!-------------------------------------------------------------->
+      </div>
+
+      <ul id="todo" class="newlist">
+        <li id="checked"></li>
+      </ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
