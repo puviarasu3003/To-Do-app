@@ -121,7 +121,7 @@ li.checked {
 @media screen and (max-width: 700px) {
   .full {
     width: 350px;
-    margin-left: 22px;
+    margin-left: 27px;
   }
   #todo li {
     width: 250px;
